@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Devanir Ramos Junior</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="vue-app">
+      <h1>{{greet('Night')}}</h1>
+      <h1>Ainda estou apenas testando.</h1>
+      <p>Name: {{name}}</p>
+      <p>Job: {{job}}</p>
+      <a v-bind:href="site"> Google</a>
+      <p v-html="siteTag"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
