@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Devanir Ramos Junior</title>
+    <link rel="icon" href="https://www.cashadvance6online.com/data/archive/img/2253529466.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
   </head>
   <body>
     <header>
-      <div class="header-bg"></div><br>
-      <img class="my-pic" src="https://raw.githubusercontent.com/De472/de472.github.io/main/devanir-ramos-junior/imgs/devanir.jpeg" width="80px" alt="Devanir Ramos Junior"/><br>
-      <div class="header-text"><b>Devanir Ramos Junior</b></div>
+      <img class="my-pic" src="https://raw.githubusercontent.com/De472/de472.github.io/main/devanir-ramos-junior/imgs/devanir.jpeg" width="80px" alt="Circle image"/>
+      <div class="header-text"><b>Devanir Ramos Junior</b></div><br>
     </header>
-    <br><br><br><br>
     <div class="main-text">
       <h3>Sobre mim:</h3>
       <p>Tenho 23 anos, moro em Caçapava - SP e atualmente estou no 4°sem de Banco de Dados da Fatec Prof. Jessen Vidal (SJC - SP).
@@ -23,17 +23,30 @@
         facilidade em trabalhar no back, mas nada que várias horas pesquisando documentação, vídeos e fóruns não ajudem.<br><br>
       </p>
       <h3>Conhecimentos:</h3>
-      <p>Relacionado a programação tenho conhecimento em: Java, Python, HTML & CSS, JavaScript e Bancos MySQL, Oracle e PostgreSQL.
-        Desses citados me destaco mais em Java e no Banco da Oracle, pois são a linguagem e banco mais utilizados no meu curso.<br><br>
+      <p>Relacionado a programação tenho conhecimento em:
+        <ul>
+          <li>Java;</li>
+          <li>Python;</li>
+          <li>HTML & CSS;</li>
+          <li>JavaScript;</li>
+          <li>Bancos MySQL, Oracle e PostgreSQL.</li>
+        </ul>
+        <br>
       </p>
     </div>
-
     <div style="text-align: center">
-      <form method="get" action="https://de472.github.io/devanir-ramos-junior/files/CV-Devanir.pdf">
-        <button class="button" onclick="this.blur()">Baixar CV</button>
-      </form>
+      <button class="button" onclick="this.blur(); window.open('https://de472.github.io/devanir-ramos-junior/files/CV-Devanir.pdf', '_blank')">Baixar CV</button>
     </div>
     <br><br>
+    <footer>
+      <br>
+      <div id="wrapper-footer">
+        <div tabindex="1" class="icon" onclick="window.open('https://github.com/De472', '_blank'); this.blur()" v-on:keyup.enter="onEnterGH"><i class="fab fa-github fa-3x"></i></div>
+        <div style="display:inline-block; width: 15%"></div>
+        <div tabindex="2" class="icon" onclick="window.open('https://www.linkedin.com/in/devanir-ramos-junior/', '_blank'); this.blur()" v-on:keyup.enter="onEnterLN"><i class="fab fa-linkedin-in fa-3x"></i></div>
+      </div>
+      <div class="footer-text"></div><br>
+    </footer>
     <!--
     <div id="vue-app">
       <h1>{{greet('Night')}}</h1>
