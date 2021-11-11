@@ -1,0 +1,12 @@
+[{
+  "aboutTitle": "Sobre mim:",
+  "aboutText": "Tenho 23 anos, moro em Caçapava - SP e atualmente estou no 4°sem de Banco de Dados da Fatec Prof. Jessen Vidal (SJC - SP). Minha graduação está para ser no segundo semestre de 2022 se tudo ocorrer certo.<br>Estou procurando um trabalho/estágio na área de TI, mais especificamente algo que envolva desenvolvimento, porque isso estaria relacionado com meus estudos e tenho vontade de ingressar neste mercado. Agora, entre front e back, tenho mais facilidade em trabalhar no back, mas nada que várias horas pesquisando documentação, vídeos e fóruns não ajudem.<br><br>",
+  "knowledgeTitle": "Conhecimentos:",
+  "knowledgeText": "Relacionado a programação tenho conhecimento em:<ul><li>Java;</li><li>Python;</li><li>HTML & CSS;</li><li>JavaScript;</li><li>Bancos MySQL, Oracle e PostgreSQL.</li></ul><br>"
+},
+{
+  "aboutTitle": "About me:",
+  "aboutText": "I'm 23 years old, I live in Caçapava - SP - Brazil and I'm currently finishing my second year of Database at Fatec Prof. Jessen Vidal (SJC - SP). My graduation is schedule to be at the end of 2022 if everything goes right.<br>I'm currently looking for an IT job/intership, specifically something that involves software development, because it would be related to my studies and I want to start my career as a developer. Between front-end and back-end development I have an easier time with back-end, but I can always spend some time searching documentations, videos or web forums.<br><br>",
+  "knowledgeTitle": "Knowledge:",
+  "knowledgeText": "My knowledge of programming:<ul><li>Java;</li><li>Python;</li><li>HTML & CSS;</li><li>JavaScript;</li><li>MySQL, Oracle and PostgreSQL Databases.</li></ul><br>"
+}]

@@ -1,3 +1,70 @@
+.slider-text {
+  position: absolute;
+  font-size: 12px;
+  right: 3.3em;
+  top: 2em;
+}
+
+.switch {
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  right: 1em;
+  top: 1em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: dimgray;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 6px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: green;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 .my-pic {
   width: 10%;
   border-radius: 50%;
@@ -121,10 +188,11 @@ footer {
               rgba(0, 0, 0, 0.12) 0px 4px 6px,
               rgba(0, 0, 0, 0.17) 0px 12px 13px,
               rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  transition: all .2s ease-in-out;
+  transition: .3s;
 }
 
 .icon:hover {
+  background-color: #ddd;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
               rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
               rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
@@ -136,7 +204,7 @@ footer {
 }
 
 .icon:active {
-  transform: scale(1.15);
+  transform: scale(1.2);
 }
 
 .icon:focus {
@@ -157,7 +225,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(hsl(220, 70%, 40%), hsl(300, 70%, 40%));
+  background: linear-gradient(hsl(220, 70%, 37%), hsl(300, 70%, 40%));
   border-radius: 100vw;
 }
 

@@ -6,36 +6,43 @@
     <link rel="icon" href="https://www.cashadvance6online.com/data/archive/img/2253529466.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet"/>
+    <script src="lang.json"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <script src="https://livejs.com/live.js"></script>
   </head>
   <body>
     <header>
+      <div class="slider-text">PT - EN</div>
+      <label class="switch">
+        <input id="lang" type="checkbox" onclick="changeLang()">
+        <span class="slider round"></span>
+      </label>
       <img class="my-pic" src="https://raw.githubusercontent.com/De472/de472.github.io/main/devanir-ramos-junior/imgs/devanir.jpeg" width="80px" alt="Circle image"/>
       <div class="header-text"><b>Devanir Ramos Junior</b></div><br>
     </header>
     <div class="main-text">
-      <h3>Sobre mim:</h3>
-      <p>Tenho 23 anos, moro em Caçapava - SP e atualmente estou no 4°sem de Banco de Dados da Fatec Prof. Jessen Vidal (SJC - SP).
+      <h3 id="aboutTitle">Sobre mim:</h3>
+      <p id="aboutText">Tenho 23 anos, moro em Caçapava - SP e atualmente estou no 4°sem de Banco de Dados da Fatec Prof. Jessen Vidal (SJC - SP).
         Minha graduação está para ser no segundo semestre de 2022 se tudo ocorrer certo.<br>
         Estou procurando um trabalho/estágio na área de TI, mais especificamente algo que envolva desenvolvimento, porque isso
         estaria relacionado com meus estudos e tenho vontade de ingressar neste mercado. Agora, entre front e back, tenho mais
         facilidade em trabalhar no back, mas nada que várias horas pesquisando documentação, vídeos e fóruns não ajudem.<br><br>
       </p>
-      <h3>Conhecimentos:</h3>
-      <p>Relacionado a programação tenho conhecimento em:
-        <ul>
-          <li>Java;</li>
-          <li>Python;</li>
-          <li>HTML & CSS;</li>
-          <li>JavaScript;</li>
-          <li>Bancos MySQL, Oracle e PostgreSQL.</li>
-        </ul>
-        <br>
+      <h3 id="knowledgeTitle">Conhecimentos:</h3>
+      <p id="knowledgeText">Relacionado a programação tenho conhecimento em:
+        <div id="knowledgeList">
+          <ul>
+            <li>Java;</li>
+            <li>Python;</li>
+            <li>HTML & CSS;</li>
+            <li>JavaScript;</li>
+            <li>Bancos MySQL, Oracle e PostgreSQL.</li>
+          </ul><br>
+        </div>
       </p>
     </div>
     <div style="text-align: center">
-      <button class="button" onclick="this.blur(); window.open('https://de472.github.io/devanir-ramos-junior/files/CV-Devanir.pdf', '_blank')">Baixar CV</button>
+      <button id="cv" class="button" onclick="this.blur(); window.open('https://de472.github.io/devanir-ramos-junior/files/CV-Devanir.pdf', '_blank')">Baixar CV</button>
     </div>
     <br><br>
     <footer>
