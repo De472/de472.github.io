@@ -6,4 +6,4 @@ O website ainda é básico, mas já é algo apresentável.
 
 Para melhor experiência, acesse pelo desktop.
 
-[Acesse clicando aqui](https://de472.github.io/devanir-ramos-junior "Meu site")
+[Acesse clicando aqui](https://DevanirRamosJr.github.io/devanir-ramos-junior "Meu site")
